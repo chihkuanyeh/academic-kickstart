@@ -68,3 +68,10 @@ related:
       weight: 70
 security:
   _merge: deep
+
+
+#security:
+#funcs:
+#getenv:
+#- ^HUGO_
+#- ^WC_

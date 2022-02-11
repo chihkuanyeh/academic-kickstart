@@ -22,28 +22,32 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: PhD Student
+    company: Carnegie Mellon University Machine Learning department
     company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+    company_logo: ''
+    location: Pennsylvania
+    date_start: '2017-09-01'
     date_end: ''
-    description: |2-
-        Responsibilities include:
+    description: Focused on understanding and explaining machine learning methods working with professor Pradeep Ravikumar.
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: Research Intern
+    company: Google 
     company_url: ''
-    company_logo: org-x
+    company_logo: ''
     location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    date_start: '2019-06-01'
+    date_end: '2019-10-01'
+    description: Worked on formalizing the ''completeness'' concept for Concept-Based explanations with Been Kim, Sercan Arik, Chun-Liang Li, and Thomas Pfister. Paper published in NeurIPS 2020.
+
+  - title: Research Intern
+    company: Google 
+    company_url: ''
+    company_logo: ''
+    location: California
+    date_start: '2021-06-01'
+    date_end: '2021-11-01'
+    description: Worked on Scalable Data Influence methods for NLP models with Ankur Taly, Frederick Liu, and Mukund Sundararajan. Paper submitted.
 
 design:
   columns: '2'
