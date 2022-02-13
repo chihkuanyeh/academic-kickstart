@@ -1,52 +1,46 @@
 ---
-title: "Multi-Label Zero-Shot Learning With Structured Knowledge Graphs"
+title: "Objective criteria for explanations of machine learning models"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Chung-Wei Lee
-- Wei Fang
 - Chih-Kuan Yeh
-- Yu-Chiang Frank Wang
+- Pradeep Ravikumar
 
 
 # Author notes (optional)
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
+- 
 
-date: "2018"
+date: "2021"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2018-07-01T00:00:00Z"
+publishDate: "2021-11-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In IEEE Conference on Computer Vision and Pattern Recognition 2018
-publication_short: In CVPR 2018
+publication: In Applied AI letters 2021
+publication_short: In Applied AI letters 2021
 
-abstract: In this paper, we propose a novel deep learning architecture for multi-label zero-shot learning (ML-ZSL), which is able to predict multiple unseen class labels for each input instance. Inspired by the way humans utilize semantic knowledge between objects of interests, we propose a framework that incorporates knowledge graphs for describing the relationships between multiple labels. Our model learns an information propagation mechanism from the semantic label space, which can be applied to model the interdependencies between seen and unseen class labels. With such investigation of structured knowledge graphs for visual reasoning, we show that our model can be applied for solving multi-label classification and ML-ZSL tasks. Compared to state-of-the-art approaches, comparable or improved performances can be achieved by our method.
+abstract: Objective criteria to evaluate the performance of machine learning (ML) model explanations are a critical ingredient in bringing greater rigor to the field of explainable artificial intelligence. In this article, we survey three of our proposed criteria that each target different classes of explanations. In the first, targeted at real-valued feature importance explanations, we define a class of “infidelity” measures that capture how well the explanations match the ML models. We show that instances of such infidelity minimizing explanations correspond to many popular recently proposed explanations and, moreover, can be shown to satisfy well-known game-theoretic axiomatic properties. In the second, targeted to feature set explanations, we define a robustness analysis-based criterion and show that deriving explainable feature sets based on the robustness criterion yields more qualitatively impressive explanations. Lastly, for sample explanations, we provide a decomposition-based criterion that allows us to provide very scalable and compelling classes of sample-based explanations.
 # Summary. An optional shortened abstract.
-summary: Using word level information to predict unseen labels in multi-label classifications.
-
+summary: Some advances to place explanations in a more objective footings.
 tags: []
 
 # Display this page in the Featured widget?
 featured: False
 
 # Custom links (uncomment lines below)
-#links:
-# - name: Blog
-#   url: https://blog.ml.cmu.edu/2019/04/19/representer-point-selection-explain-dnn/
 
-url_pdf: 'https://arxiv.org/pdf/1711.06526v2.pdf'
+
+url_pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/ail2.57'
 url_code: ''
 url_dataset: ''
 url_poster: ''
